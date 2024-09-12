@@ -1,0 +1,205 @@
+.one{
+    align-items: center;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(pexels-tirachard-kumtanom-112571-733852.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    height: 75px;
+    width: 1200;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.log0{
+    color: rgb(235, 40, 40);
+    font-style: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+ul li a:hover{
+    color:coral;
+    
+}
+
+.search{
+   width: 330px;
+   float: left;
+   margin-left: 270px;
+
+   
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 120px;
+    height: 20px;
+    background: lab(lightness a b);
+    border: 1px solid firebrick;
+    margin-top: 23px;
+    margin-left: 120px;
+    border-color:greenyellow ;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 60px;
+    color: red;
+    background-color: blanchedalmond;
+    border-color: red;
+    font-family: Verdana;
+    border-radius: 8px;
+
+}
+
+.content{
+    
+    text-align: left;
+    color: rgba(8, 247, 60, 0.884);
+    position: relative;
+    
+}
+
+.bn{
+    width: 90px;
+    height: fit-content;
+    background-color: rgb(11, 15, 15);
+    border-radius: 7px;
+ border-style: solid;
+    background: rgb(225, 180, 92);
+    margin-top: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.content .bn a{
+    text-decoration: none;
+    color: orangered;
+backface-visibility: hidden;
+}
+
+.bn:hover{
+    background-color: rgb(144, 144, 165);
+}
+
+.content span{
+    color: rgb(226, 10, 28);
+}
+
+.form{
+    width: 200px;
+    height: 330px;
+    background: linear-gradient(to top,  rgba(210, 208, 208, 0.5)50%, rgba(231, 104, 104, 0.5)50%);
+    position:absolute;
+    top: 200px;
+    right: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.form h3{
+    width: 200px;
+    font-family: Cambria;
+    color: rgb(16, 16, 16);
+    background-color: rgba(210, 208, 208, 0.5)50%);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.form input{
+    width: 150px;
+    background: transparent;
+    border-radius: 10px;
+    border-bottom: 2px solid floralwhite;
+    font-size: 15px;
+    font-family: 'Gill Sans';
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+::placeholder{
+    color: chartreuse;
+}
+
+.btnn{
+    height: 20px;
+    width: 70px;
+    background: orange;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(239, 242, 244);
+    font-family: serif;
+
+}
+
+.btnn :hover{
+    background: white;
+    color:orange;
+}
+
+.btnn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+h6{
+    color: rgb(11, 12, 12);
+    margin-top: 300px;
+    color: aqua;
+    font-weight: bold;
+}
